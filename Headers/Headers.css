@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+  }
+  
+.main-title {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 2.5rem;
+}
+
+.home {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.home:hover {
+    text-decoration: underline;
+}
+  
+  section {
+    margin: 60px auto;
+    max-width: 1000px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  /* 1. Simple Centered */
+  .header-1 {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  /* 2. Logo Left + Nav Right */
+  .header-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #444;
+    padding: 20px 40px;
+    color: white;
+  }
+  
+  .header-2 nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  /* 3. Navbar with Search */
+  .header-3 {
+    background: #222;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-3 nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .header-3 input {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  /* 4. Center Logo + Split Nav */
+  .header-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header-4 nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-4 .logo {
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+
+  /* 5. Mega Menu Style */
+  .header-6 {
+    background: #222;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-6 nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-6 button {
+    background: white;
+    color: #222;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* 6. Large Hero Banner */
+  .header-5 {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 10px;
+  }
+  
+  .header-5 button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: white;
+    color: #4e54c8;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* 7. Transparent Overlay on Image */
+  .header-7 {
+    background: url('https://picsum.photos/id/1040/1200/400') no-repeat center/cover;
+    height: 300px;
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .header-7 .overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  /* 8. Transparent on Image */
+  .header-8-wrapper {
+    position: relative;
+  }
+  
+  .header-8 {
+    position: absolute;
+    top: 0;
+    width: 95%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    z-index: 10;
+  }
+  
+  .hero-img {
+    background: url('https://picsum.photos/id/1050/1200/400') no-repeat center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .hero-img h1 {
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+  }
+  
+  /* 9. Glassmorphic Blur */
+  .glass-container {
+    background: url('https://picsum.photos/id/1060/1200/400') no-repeat center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-9 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 12px;
+  }
+  
+  /* 10. Dropdown Nav (Click to Open) */
+  .header-10 {
+    background: #1e1e1e;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-container button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background: white;
+    color: black;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    min-width: 150px;
+  }
+  
+  .dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown.show {
+    display: block;
+  }
+  
+  /* 11. Responsive Hamburger */
+  .header-11 {
+    background: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .hamburger {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #mobileNav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .hamburger {
+      display: block;
+    }
+  
+    #mobileNav {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      flex-direction: column;
+      background: #111;
+      padding: 10px;
+      border-radius: 4px;
+    }
+  
+    #mobileNav.show {
+      display: flex;
+    }
+  }
+  
