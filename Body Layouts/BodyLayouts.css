@@ -3,15 +3,15 @@ body {
     font-family: Arial, sans-serif;
     background: #f0f0f0;
     color: #333;
-}
+  }
   
-.main-title {
+  .main-title {
     text-align: center;
     margin: 40px 0;
     font-size: 2.5rem;
-}
+  }
   
-.layout {
+  .layout {
     width: 90%;
     margin: 0 auto;
     min-height: 500px;
@@ -20,50 +20,50 @@ body {
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     border-radius: 8px;
     box-sizing: border-box;
-}
+  }
   
-.spacer {
+  .spacer {
     height: 100px;
-}
+  }
   
-/* Layout 1: Two-column with Sidebar */
-.layout-1 {
+  /* Layout 1: Two-column with Sidebar */
+  .layout-1 {
     display: flex;
     gap: 20px;
-}
-.layout-1 .sidebar {
+  }
+  .layout-1 .sidebar {
     flex: 1;
     background: #ddd;
     padding: 20px;
     border-radius: 6px;
-}
-.layout-1 .main-content {
+  }
+  .layout-1 .main-content {
     flex: 3;
-}
+  }
   
-/* Layout 2: Full-Width Hero + Grid */
-.layout-2 .hero {
+  /* Layout 2: Full-Width Hero + Grid */
+  .layout-2 .hero {
     background: #4e54c8;
     color: white;
     padding: 60px 30px;
     text-align: center;
     border-radius: 6px;
     margin-bottom: 40px;
-}
-.layout-2 .grid {
+  }
+  .layout-2 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-}
-.layout-2 .card {
+  }
+  .layout-2 .card {
     background: #eee;
     padding: 20px;
     border-radius: 6px;
     text-align: center;
-}
+  }
   
-/* Layout 3: Horizontal Scroll */
-.layout-3 .scroll-ribbon {
+  /* Layout 3: Horizontal Scroll */
+  .layout-3 .scroll-ribbon {
     display: flex;
     overflow-x: auto;
     gap: 20px;
@@ -71,44 +71,134 @@ body {
     background: #222;
     border-radius: 6px;
     color: white;
-}
-.scroll-item {
+  }
+  .scroll-item {
     flex: 0 0 auto;
     background: #444;
     padding: 40px;
     min-width: 200px;
     border-radius: 6px;
     text-align: center;
-}
+  }
   
-/* Layout 4: Sidebar Right */
-.layout-4 {
+  /* Layout 4: Sidebar Right */
+  .layout-4 {
     display: flex;
     gap: 20px;
-}
-.layout-4 .main-left {
+  }
+  .layout-4 .main-left {
     flex: 3;
-}
-.layout-4 .sidebar-right {
+  }
+  .layout-4 .sidebar-right {
     flex: 1;
     background: #ccc;
     padding: 20px;
     border-radius: 6px;
-}
+  }
   
-/* Layout 5: Centered Content */
-.layout-5 {
+  /* Layout 5: Centered Content */
+  .layout-5 {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 500px;
     text-align: center;
-}
-.layout-5 .centered {
+  }
+  .layout-5 .centered {
     max-width: 600px;
     background: #fefefe;
     padding: 40px;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+  }
+  
+  /* Layout 6: Todo List */
+  .layout-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .layout-6 .todo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .layout-6 .todo-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .layout-6 .todo-item {
+    background: #e8e8e8;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  /* Layout 7: Calendar */
+  .layout-7 .calendar-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .layout-7 .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  .layout-7 .day-cell {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Layout 8: Profile Dashboard */
+  .layout-8 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+  }
+  .layout-8 .profile-sidebar {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+  }
+  .layout-8 .profile-sidebar img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .layout-8 .profile-details {
+    background: #fafafa;
+    padding: 30px;
+    border-radius: 6px;
+  }
+  
+  /* Layout 9: Media Gallery */
+  .layout-9 .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+  }
+  .layout-9 .gallery-item {
+    background: #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    height: 150px;
+  }
+  
+  /* Layout 10: Pricing Plans */
+  .layout-10 .plans {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .layout-10 .plan {
+    background: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    flex: 1;
+    text-align: center;
+  }
   
